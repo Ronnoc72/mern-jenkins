@@ -1,0 +1,45 @@
+:root {
+  --text-c: #0c1618;
+  --background-c: #004643;
+  --paper-c: #faf4d3;
+}
+
+.document {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	height: 100px;
+	background: var(--paper-c);
+}
+
+.document:hover {
+	padding: 15px;
+	transition: 200ms;
+	font-size: 30px;
+}
+
+.documents {
+	width: 75%;
+	margin: 50px;
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: repeat(5, auto);
+}
+
+.document p {
+	position: absolute;
+}
+
+button {
+	padding: 0px 15px 0px 15px;
+	font-size: 24px;
+	background: #d1ac00;
+	border: none;
+}
+
+button:hover {
+	transition: 200ms;
+	font-size: 30px;
+	padding: 0 10px 0 10px;
+	background: #ae8e01;
+}

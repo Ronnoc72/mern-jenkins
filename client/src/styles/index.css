@@ -1,0 +1,64 @@
+/* colors: 0c1618,004643,faf4d3,d1ac00,f6be9a */
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+@keyframes fade-in {
+	from {color: rgba(0, 0, 0, 0.0); opacity: 0;}
+	to {color: var(--text-c); opacity: 1;}
+}
+
+:root {
+  --text-c: #0c1618;
+  --background-c: #004643;
+  --paper-c: #faf4d3;
+}
+
+* {
+  animation: fade-in 500ms ease-out;
+  color: var(--text-c);
+  font-family: "Cuprum", sans;
+}
+
+body {
+  background: var(--background-c);
+}
+
+.file-selection {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  background: var(--background-c);
+}
+
+.file-selection div {
+  width: 12%;
+  height: 250px;
+  margin: 10px 20px 10px 20px;
+  background: var(--paper-c);
+  text-align: center;
+  font-size: 24px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.file-selection div:hover {
+  transition: 200ms;
+  border-radius: 5%;
+  padding: 0;
+  box-shadow: 0px 5px 10px black;
+  width: 15%;
+  height: 300px;
+  margin: 0;
+}
+
+#username {
+  color: whitesmoke;
+  font-size: 36px;
+  background: #d1ac00;
+  padding: 0 15px 0 15px;
+}
+
+p {
+	position: absolute;
+}

@@ -1,0 +1,70 @@
+:root {
+  --size: 36px;
+  --text-c: #0c1618;
+  --background-c: #004643;
+  --paper-c: #faf4d3;
+}
+
+.newfile {
+  margin: 30px;
+}
+
+.paper {
+  display: block;
+  background: var(--paper-c);
+  width: 55%;
+  height: 1100px;
+  margin-left: 50%;
+  margin: auto;
+}
+
+textarea {
+  font-size: var(--size);
+  position: relative;
+  display: block;
+  background: var(--paper-c);
+  border: none;
+  margin: auto;
+  top: 80px;
+  height: 925px;
+  width: 85%;
+  resize: none;
+  outline: none;
+}
+
+#font-window, #image-window, #zoom-window, #color-window {
+  display: none;
+  position: absolute;
+  background: whitesmoke;
+  top: 50px;
+  left: 33%;
+  height: 400px;
+  width: 33%;
+}
+
+.grid {
+  display: grid;
+  list-style-type: none;
+  font-size: large;
+  grid-template-rows: auto;
+  grid-row-gap: 10px;
+  padding-left: 15px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.align {
+  margin-top: 20%;
+}
+
+#color-window div {
+  display: grid;
+  list-style-type: none;
+  font-size: large;
+  grid-template-columns: repeat(3, auto);
+  grid-row-gap: 10px;
+  padding-left: 15px;
+}

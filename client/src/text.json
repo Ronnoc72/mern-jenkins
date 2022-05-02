@@ -1,0 +1,19 @@
+{
+  "menuItems": {
+  	"header": ["File", "Edit", "View"],
+      "dropdown": [
+        {"file": ["Clear", "Save", "Home"]},
+        {"edit": ["Font", "Color"]},
+        {"view": ["Zoom"]}
+      ],
+      "fonts": ["Calibri", "Verdana", "Helvetica", "Arial", "Times New Roman", "Rockwell"],
+    	"colors": ["olive", "forestgreen", "ghostwhite", "greenyellow", "khaki", "indianred", "indigo",
+             "gold", "dogerblue", "dimgray", "coral", "blue", "brown", "chocolate", "blueviolet", "darkcyan", 
+             "aqua", "aliceblue", "lighseagreen", "lightsalmon", "lighslategray"],
+      "themes": [{"name": "Blue Frost", "styles": {"background": "cornflowerblue", "page": "darkcyan"}},
+				{"name": "Forest", "styles": {"background": "darkkhaki", "page": "darkolivegreen"}}, 
+				{"name": "Dark", "styles": {"background": "darkgray", "page": "dimgray"}},
+        {"name": "Light", "styles": {"background": "lightgray", "page": "white"}},
+        {"name": "Marygold", "styles": {"background": "darkgoldenrod", "page": "lightgoldenrodyellow"}}]
+  }
+}

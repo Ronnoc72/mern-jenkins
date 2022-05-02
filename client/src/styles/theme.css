@@ -1,0 +1,31 @@
+:root {
+  --text-c: #0c1618;
+  --background-c: #004643;
+  --paper-c: #faf4d3;
+}
+
+.theme-docs {
+  width: 75%;
+	margin: 50px;
+	display: grid;
+	grid-row-gap: 10px;
+	grid-template-columns: repeat(5, auto);
+}
+
+.theme-doc {
+	display: flex;
+	justify-content: center;
+	width: 75%;
+	height: 100px;
+	background: var(--paper-c);
+}
+
+.theme-doc p {
+	position: absolute;
+}
+
+.theme-doc:hover {
+	padding: 15px;
+	transition: 200ms;
+	font-size: 30px;
+}

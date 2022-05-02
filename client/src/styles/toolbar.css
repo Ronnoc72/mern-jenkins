@@ -1,0 +1,36 @@
+.toolbar {
+  background: whitesmoke;
+}
+
+.dropdown {
+  position: absolute;
+  font-size: large;
+}
+
+.dropdown p {
+	text-align: center;
+	background: whitesmoke;
+}
+
+.dropdown p:hover {
+	background: rgb(172, 172, 172);
+}
+
+.list-items > .list-item {
+	font-size: larger;
+  display: inline;
+	padding: 0 20px 0 20px;
+}
+
+.list-item:hover {
+  background: rgb(172, 172, 172);
+}
+
+#title {
+  border: 3px solid bisque;
+  padding: 5px;
+  width: 150px;
+  height: 20px;
+  margin: 15px 0 10px 15px;
+  font-size: x-large;
+}
