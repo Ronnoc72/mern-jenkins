@@ -1,0 +1,8 @@
+Started by user [8mha:////4AcO2U9puxn5xE5IaGGYoInGrY+iy5PJzpDSGYDMyl7yAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mConnor Paxman
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins1056509260182778675.sh
++ NAME=connor
++ date
++ echo Hello, my name is connor. The current Date is Thu Apr 28 15:12:38 UTC 2022
+Finished: SUCCESS
