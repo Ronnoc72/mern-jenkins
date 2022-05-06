@@ -1,0 +1,12 @@
+Started by user [8mha:////4AcO2U9puxn5xE5IaGGYoInGrY+iy5PJzpDSGYDMyl7yAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzeEgZu/dLi1CL9xJTczDwACG0V4sAAAAA=[0mConnor Paxman
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/docker-compose
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Ronnoc72/mern-jenkins.git
+ > git init /var/jenkins_home/workspace/docker-compose # timeout=10
+Fetching upstream changes from https://github.com/Ronnoc72/mern-jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/Ronnoc72/mern-jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
