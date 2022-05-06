@@ -9,4 +9,4 @@ execution:
       requests:
         - label: mern-demo
           method: GET
-          url:
+          url: http://mern-project.com/
