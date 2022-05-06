@@ -1,7 +1,7 @@
 FROM centos:7.9.2009
 
 RUN yum -y install openssh-server
-RUN yum install git
+RUN yum -y install git
 
 RUN useradd remote_user && \
     echo "1234" | passwd remote_user --stdin && \

@@ -3,6 +3,10 @@
   <version>1</version>
   <idToDirectoryNameMap class="concurrent-hash-map">
     <entry>
+      <string>jenkins</string>
+      <string>jenkins_15077960010114294417</string>
+    </entry>
+    <entry>
       <string>admin</string>
       <string>admin_6368628363670976532</string>
     </entry>
