@@ -9,8 +9,4 @@ execution:
       requests:
         - label: mern-demo
           method: GET
-<<<<<<< HEAD
           url: http://mern-project.com/
-=======
-          url: http://mern-project.com/
->>>>>>> d27109b9f2a02a2bf624f7500816eefef715249b
