@@ -20,5 +20,9 @@ Ideas:
 Docker:
 This project has been dockerized using docker compose and multiple docker files located in the client and server directories of the application. <br/>
 The 'docker-compose.yml' file sets up each server to be able to run with each other. The react client and express api are built using their own docker files, triggered by the docker compose file. <br/>
-In order to run the application locally, the user needs to have docker installed and running on their machine. Open this project in a terminal on the root directory, (where the 'docker-compose.yml' file is located). Run the command 'docker-compose up', (or without all the log messages, run 'docker-compose -d up').<br/>
+In order to run the application locally, the user needs to have docker installed and running on their machine. Open this project in a terminal on the root directory, (where the 'docker-compose.yml' file is located). Run the command 'docker-compose up', (or without all the log messages, run 'docker-compose up -d').<br/>
 Open the application like you would normally, using localhost:3000/login for the client.
+
+Jenkins:
+This project, along with docker, has been created with continous intergration using jenkins. In the jenkins directory there is another 'docker-compose.yml', and run a 'docker-compose up -d'. <br/>
+On the running of the jenkins server, open a new window with the url 'localhost:8080', create a new project and placing the github repo url in the new item will allow the developer to run tests and view additional information that github doesn't show.
